@@ -54,7 +54,7 @@
 
     ============================================= -->
 
-    <title>CLMS</title>
+    <title>Studio Sunlife</title>
 
 
 
@@ -163,7 +163,7 @@
 
                     <div class="col-md-6 text-center text-md-left">
 
-                        Copyrights &copy; 2021 All Rights Reserved by CLMS<br>
+                        Copyrights &copy; 2024 All Rights Reserved by Studio Sunlife<br>
 
                         <div class="copyright-links"><a href="terms" class="text-white-50">Terms of Use</a> / <a href="privacypolicy" class="text-white-50">Privacy Policy</a></div>
 

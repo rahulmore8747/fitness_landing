@@ -2,17 +2,21 @@
 @section('content')
     <!-- Slider
       ============================================= -->
-    <section id="slider" class="slider-element dark min-vh-100 include-header"
-        style="background-image: url('template/front/demos/landing/images/hero/1.svg');">
+    {{-- <section id="slider" class="slider-element dark min-vh-100 include-header"
+        style="background-image: url('template/front/demos/landing/images/hero/1.svg');"> --}}
+        
+        {{-- fitness image --}}
+        <section id="slider" class="slider-element dark min-vh-100 include-header"
+        style="background-image: url('template/front/demos/landing/images/fitness/fitness_2.png');">
         <div class="slider-inner flex-column">
-
+        {{-- fitness image ends here --}}
             <div class="vertical-middle">
                 <div class="container">
                     <div class="row align-items-lg-center no-gutters">
-
+                        
                         <div class="col-lg-6 col-md-6">
                             <h2 class="display-3 font-weight-bold text-white">Our App<br>Your Business.</h2>
-                            <p class="lead mb-4 font-weight-normal">Best Lead Management App for your upcoming leads.</p>
+                            <p class="lead mb-4 font-weight-normal">Your Ultimate Fitness Partner for a Healthier You.</p>
                             <div>
                                 <a href="https://apps.apple.com/us/app/your-app-name/id1234567890"
                                     class="btn mt-2 text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"
@@ -26,13 +30,23 @@
 
                         <div class="col-lg-1 d-md-none d-lg-block"></div>
 
-                        <div class="col-lg-5 col-md-6 align-self-lg-end">
+                        {{-- <div class="col-lg-5 col-md-6 align-self-lg-end">
                             <div class="slide-imgs">
                                 <img src="template/front/demos/landing/images/hero/1-2.png" alt="Image" class="card-img">
                                 <img src="template/front/demos/landing/images/hero/1-1.png" alt="Image"
                                     class="iphone-img">
-                            </div>
-                        </div>
+
+
+                                </div>
+                            </div> --}}
+                            {{-- fitness images added --}}
+                            {{-- <div class="col-lg-5 col-md-6 align-self-lg-end">
+                                <div class="slide-imgs">
+                                    <img src="template/front/demos/landing/images/fitness/fitness1.jpg" alt="Image" class="card-img">
+                                    <img src="template/front/demos/landing/images/fitness/fitness13.jpg" alt="Image" class="iphone-img">
+                                </div>
+                            </div> --}}
+                            
 
                     </div>
                 </div>
@@ -49,11 +63,8 @@
             <div class="container">
                 <div class="mx-auto center mt-4 bottommargin heading-block" style="max-width: 640px;">
                     <h5 class="text-uppercase ls1 text-muted mb-3">Why You Choose Us?</h5>
-                    <h2 class="nott mb-4">Features for CLMS App</h2>
-                    <p class="lead font-weight-normal font-primary mb-5">Dynamically manage leads using a set of
-                        methodologies, systems, and practices to generate new potential business clientele, generally
-                        operated through a variety of marketing campaigns or programs. Globally drive business with this
-                        customizable app.</p>
+                    <h2 class="nott mb-4">Features for Studio Sunlife App</h2>
+                    <p class="lead font-weight-normal font-primary mb-5">Studio Sunlife's fitness app is designed to revolutionize your fitness journey. With personalized workout plans tailored to your goals, real-time activity tracking, and comprehensive progress analytics, achieving your fitness milestones has never been easier. Stay on top of your nutrition with expert guidance and meal suggestions, while conveniently booking classes and workshops through the app. Engage with a supportive community, participate in challenges, and earn rewards for your achievements. With Studio Sunlife, you have access to a holistic fitness experience that empowers you to reach new heights of health and wellness..</p>
                 </div>
 
                 <div class="features-items mx-auto" style="max-width: 1000px;">
@@ -65,9 +76,7 @@
                                 </div>
                                 <div class="fbox-content">
                                     <h2 class="h4 font-weight-bold mb-4">Track Leads</h2>
-                                    <div class="lead font-weight-normal text-black-50">Use this app to keep track record at
-                                        each stage of lead conversation and processing cycle. Acurate detail anytime and
-                                        anywhere will let you convert more leads in less time.</div>
+                                    <div class="lead font-weight-normal text-black-50">Utilize this app to seamlessly track progress at every stage of client interaction and fitness journey. Accurate details available anytime, anywhere empower you to convert more fitness enthusiasts into committed members efficiently.</div>
                                 </div>
                             </div>
                         </div>
@@ -79,9 +88,7 @@
                                 </div>
                                 <div class="fbox-content">
                                     <h2 class="h4 font-weight-bold mb-4">Automate Lead Management</h2>
-                                    <div class="lead font-weight-normal text-black-50">To win leads follow-up is essential,
-                                        which has become very easy by automating meeting schedule, reminder and follow-ups
-                                        phone calls and emails.</div>
+                                    <div class="lead font-weight-normal text-black-50">Simplify lead management with automated scheduling for meetings, reminders, phone calls, and emails. Stay organized and efficient in converting leads into active participants in your fitness journey.</div>
                                 </div>
                             </div>
                         </div>
@@ -168,40 +175,42 @@
                     data-items-sm="3" data-items-md="4" data-items-lg="4" data-items-xl="5">
 
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/1.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/1.png" alt="Image 1">
+                        <a href="template/front/demos/landing/images/screenshot/ss1.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss1.png" alt="Image 1">
                         </a>
                     </div>
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/2.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/2.png" alt="Image 2">
+                        <a href="template/front/demos/landing/images/screenshot/ss00.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss00.png" alt="Image 2">
                         </a>
                     </div>
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/3.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/3.png" alt="Image 3">
+                        <a href="template/front/demos/landing/images/screenshot/ss013.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss013.png" alt="Image 3">
                         </a>
                     </div>
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/4.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/4.png" alt="Image 4">
+                        <a href="template/front/demos/landing/images/screenshot/ss011.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss011.png" alt="Image 4">
                         </a>
                     </div>
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/5.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/5.png" alt="Image 5">
+                        <a href="template/front/demos/landing/images/screenshot/ss02.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss02.png" alt="Image 6">
                         </a>
                     </div>
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/6.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/6.png" alt="Image 6">
+                        <a href="template/front/demos/landing/images/screenshot/ss08.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss08.png" alt="Image 5">
                         </a>
                     </div>
                     <div class="oc-item">
-                        <a href="template/front/demos/landing/images/carousel/7.png" data-lightbox="image">
-                            <img src="template/front/demos/landing/images/carousel/7.png" alt="Image 7">
+                        <a href="template/front/demos/landing/images/screenshot/ss014.png" data-lightbox="image">
+                            <img src="template/front/demos/landing/images/screenshot/ss014.png" alt="Image 7">
                         </a>
                     </div>
+
+                    
 
                 </div>
 
@@ -210,7 +219,7 @@
             <div class="section m-0 parallax" style="padding: 100px 0; background-color:rgb(61,128,228);"
                 data-0-top="background-color:rgb(61,128,228);" data-center-bottom="background-color:rgb(0,0,0);">
                 <div class="container">
-                    {{-- unwanted  --}}
+                    {{-- unwanted images  --}}
                     {{-- <div class="row justify-content-between">
 							<div class="col-xl-4 col-lg-5 col-md-6 dark dotted-bg">
 								<div class="heading-block border-bottom-0 bottommargin-sm">
@@ -269,19 +278,10 @@
                                             <i class="toggle-open icon-angle-down1"></i>
                                         </div>
                                         <div class="toggle-title">
-                                            What is lead generation?
+                                            What features does Studio Sunlife offer for fitness enthusiasts ?
                                         </div>
                                     </div>
-                                    <div class="toggle-content">Companies use lead generation as a marketing tool that
-                                        initiates consumer interest in their services. This lead creation happens through a
-                                        variety of means. At Launch Leads, we use lead generation to attract and convert
-                                        business prospects into genuine interest. We often use a mix of digital channels to
-                                        establish consumer interest. Rather than using your business’s time and means, we
-                                        handle initial sales effort so you can focus on more qualified buyers. Lead
-                                        Generation services like Launch Leads also brings more qualified buyers to your
-                                        doorstep thanks to our experience and proven data-driven solutions. Using Lead
-                                        Generation, you will maximize your prospects and establish what your business truly
-                                        needs—growth.</div>
+                                    <div class="toggle-content">Studio Sunlife provides a range of features tailored for fitness enthusiasts, including personalized workout plans, live classes with experienced trainers, progress tracking, nutrition guidance, and a supportive community for motivation and accountability.</div>
                                 </div>
 
                                 <div class="toggle">
@@ -291,15 +291,10 @@
                                             <i class="toggle-open icon-angle-down1"></i>
                                         </div>
                                         <div class="toggle-title">
-                                            What are the Benefits of External Lead Generation Compared to Internal?
+                                            How can I sign up for Studio Sunlife and start using its services ?
                                         </div>
                                     </div>
-                                    <div class="toggle-content">There are a great number of benefits with external lead
-                                        generation which starts ultimately with cost. Instead of hiring your own team to
-                                        carry out the generation, you can rely on use to create great leads whilst you get
-                                        on with the other aspects of your business. We may also be able to generate leads
-                                        you would never have been able to, as we work with an extensive portfolio of
-                                        businesses over a range of industries.</div>
+                                    <div class="toggle-content">To join Studio Sunlife, simply download the mobile app from the App Store or Google Play Store, create an account, and choose a subscription plan that suits your needs. Once registered, you'll have access to all the app's features and content.</div>
                                 </div>
 
                                 <div class="toggle">
@@ -309,13 +304,10 @@
                                             <i class="toggle-open icon-angle-down1"></i>
                                         </div>
                                         <div class="toggle-title">
-                                            How Do You Generate the Leads?
+                                            Is my personal data safe and secure with Studio Sunlife ?
                                         </div>
                                     </div>
-                                    <div class="toggle-content">Our team are highly experienced in generating leads and use
-                                        a non-scripted approach to do so. We contact businesses that we know will be
-                                        beneficial to you and only contact the people who will be able to make decisions. By
-                                        targeting these people, we are far more likely to see results.</div>
+                                    <div class="toggle-content">Yes, at Studio Sunlife, we take your privacy and security seriously. We use industry-standard encryption protocols to protect your personal information, and we adhere to strict data privacy policies to ensure that your data is only used for improving your fitness experience and not shared with third parties without your consent.</div>
                                 </div>
                             </div>
                         </div>
@@ -376,9 +368,15 @@
                         <div class="col-lg-5 d-flex align-items-end">
                             <div class="device-video-wrap">
                                 <img src="template/front/demos/landing/images/iphone-hand.png" alt="Image">
-                                <video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay
+                                {{-- <video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay
                                     muted>
 
+                                </video> --}}
+                                {{-- fitness video tag added  --}}
+                                <video poster="template/front/demos/landing/images/fitness/fitness_7.png" preload="auto" loop autoplay
+                                    muted>
+                                    {{-- <img src="template/front/demos/landing/images/fitness/fitness.jpg" alt="Image"
+                                    class="iphone-img"> --}}
                                 </video>
                             </div>
                         </div>

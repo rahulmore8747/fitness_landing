@@ -2,7 +2,8 @@
 @section('content')
     <!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element dark min-vh-25 min-vh-md-50 include-header py-5" style="background-image: url('template/front/demos/landing/images/hero/1.svg');">
+		{{-- <section id="slider" class="slider-element dark min-vh-25 min-vh-md-50 include-header py-5" style="background-image: url('template/front/demos/landing/images/hero/1.svg');"> --}}
+			<section id="slider" class="slider-element dark min-vh-60 min-vh-md-95 include-header py-10" style="background-image: url('template/front/demos/landing/images/fitness/fitness_14.png');">
 			<div class="slider-inner">
 
 				<div class="vertical-middle text-center">
@@ -11,7 +12,7 @@
 
 							<div class="col-lg-12 col-md-12">
 								<h2 class="display-3 font-weight-bold text-white mb-2">Terms & Conditions</h2>
-								<p class="lead mb-0 font-weight-normal">Best Lead Management App for your upcoming leads.</p>
+								<p class="lead mb-0 font-weight-normal">Studio Sunlife's Terms & Conditions for Your Fitness Journey.</p>
 							</div>
 
 						</div>
@@ -32,11 +33,13 @@
 							<div class="col-md-12">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-content">
-										<p class="lead font-weight-normal">CLMS allows users to communicate, collaborate, and create in a secure and accessible virtual, cloud-based software environment created by CLMS (the “Services”). CLMS may offer for downloading from the Website or using through the Website certain products to be used in conjunction with the Services (the “Products”) only for the Service Plan users. The Products shall be licensed subject to the terms of the applicable end user license agreement.</p>
+										<p class="lead font-weight-normal">Studio Sunlife allows users to access a comprehensive suite of fitness tools, including personalized workout plans, activity tracking, nutrition guidance, and community support, all within a secure and accessible virtual environment. By using Studio Sunlife's services and products, you agree to abide by the following terms and conditions:</p>
 
-										<p class="lead font-weight-normal">By accessing and using this website and all other CLMS domains (the “Website”), using the Services, downloading or purchasing the Products, you agree to be bound by and to accept these Terms of Service and all terms and conditions contained and/or referenced herein or any additional terms and conditions set forth on the Website.</p>
+										<p class="lead font-weight-normal">1. Use of Services: Users are granted access to Studio Sunlife's services for personal fitness use only and may not share, sell, or distribute any part of the services without explicit permission.</p>
 
-										<p class="lead font-weight-normal">CLMS makes available web-based support through its website. Additional support services may be available to Customer upon payment of applicable fees (if any), as specified in Customer’s Order Form. Any support services are subject to this Agreement and CLMS applicable support policies. CLMS may also provide onboarding, deployment and other services under this Agreement. The scope, pricing, and other terms for these additional services will be specified in an Order Form, Order Form exhibit, or other document referencing this Agreement.</p>
+										<p class="lead font-weight-normal">2. Data Privacy: Studio Sunlife is committed to protecting user data and adheres to all relevant data protection laws. Users' personal information will be handled in accordance with our Privacy Policy.</p>
+
+										<p class="lead font-weight-normal">3. Acceptable Use: Users agree to use Studio Sunlife's services in a responsible manner, refraining from any activities that may harm the platform or other users.</p>
 									</div>
 								</div>
 								<div class="line line-sm"></div>
@@ -46,9 +49,15 @@
 						<div class="col-lg-4 d-flex align-items-end">
 							<div class="device-video-wrap">
 								<img src="template/front/demos/landing/images/iphone-hand.png" alt="Image">
-								<video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
+								{{-- <video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
+									
+								</video> --}}
+
+								{{-- Fitness video tag  --}}
+								<video poster="template/front/demos/landing/images/fitness/fitness_5.png" preload="auto" loop autoplay muted>
 									
 								</video>
+								
 							</div>
 						</div>
 					</div>
@@ -56,4 +65,4 @@
 			</div>
 
 		</section><!-- #content end -->
-@endsection 
+@endsection

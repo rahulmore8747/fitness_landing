@@ -3,7 +3,9 @@
 
     <!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element dark min-vh-25 min-vh-md-50 include-header py-5" style="background-image: url('template/front/demos/landing/images/hero/1.svg');">
+		{{-- <section id="slider" class="slider-element dark min-vh-25 min-vh-md-50 include-header py-5" 
+		style="background-image: url('template/front/demos/landing/images/hero/1.svg');"> --}}
+		<section id="slider" class="slider-element dark min-vh-60 min-vh-md-95 include-header py-10" style="background-image: url('template/front/demos/landing/images/fitness/fitness_14.png');">
 			<div class="slider-inner">
 
 				<div class="vertical-middle text-center">
@@ -11,8 +13,8 @@
 						<div class="row align-items-center justify-content-center">
 
 							<div class="col-lg-12 col-md-12">
-								<h2 class="display-3 font-weight-bold text-white mb-2">privacy Policy</h2>
-								<p class="lead mb-0 font-weight-normal">Best Lead Management App for your upcoming leads.</p>
+								<h2 class="display-3 font-weight-bold text-white mb-2">Privacy Policy</h2>
+								<p class="lead mb-0 font-weight-normal">Studio Sunlife's Privacy Policy for Your Fitness Journey.</p>
 							</div>
 
 						</div>
@@ -33,13 +35,13 @@
 							<div class="col-md-12">
 								<div class="feature-box fbox-plain">
 									<div class="fbox-content">
-										<p class="lead font-weight-normal">This Website is operated by CLMS, Inc. committed to keeping your information secure and managing it in accordance with our legal responsibilities under the applicable privacy and data protection laws.</p>
+										<p class="lead font-weight-normal">Studio Sunlife, as a fitness-oriented platform, is committed to protecting your personal information and ensuring its secure management in accordance with the applicable privacy and data protection laws.</p>
 
-										<p class="lead font-weight-normal">You do not have to provide your personal information to us, but if you do not provide certain information it may affect the service we are able to provide to you.</p>
+										<p class="lead font-weight-normal">We understand the sensitivity of health-related data and assure you that we do not collect any unnecessary personal information. However, certain information may be required to provide you with personalized fitness recommendations and services.</p>
 										
-										<p class="lead font-weight-normal">Your personal information may also be processed if it is necessary: to respond to a lawful request from a law enforcement or regulatory authority, body or agency; in the defense of legal claims or in order to investigate, prevent or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, or violations of any of our Site terms.</p>
+										<p class="lead font-weight-normal">Your privacy is paramount to us. Any data collected is used solely for the purpose of enhancing your fitness experience, and we do not share or sell your information to third parties without your explicit consent.</p>
 										
-										<p class="lead font-weight-normal">By continuing to use this Website, you agree to us, as data controllers collecting and using your personal information in accordance with this Privacy Policy and for the purposes of properly running the Site and offering our Products and Services to you.</p>
+										<p class="lead font-weight-normal">By using Studio Sunlife, you agree to our Privacy Policy and acknowledge that your personal information may be processed for the purpose of improving our services, ensuring data security, and offering you a tailored fitness journey.</p>
 									</div>
 								</div>
 								<div class="line line-sm"></div>
@@ -49,7 +51,11 @@
 						<div class="col-lg-4 d-flex align-items-end">
 							<div class="device-video-wrap">
 								<img src="template/front/demos/landing/images/iphone-hand.png" alt="Image">
-								<video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
+								{{-- <video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
+									
+								</video> --}}
+								{{-- fitness video tag image  --}}
+								<video poster="template/front/demos/landing/images/fitness/fitness_4.png" preload="auto" loop autoplay muted>
 									
 								</video>
 							</div>
@@ -59,4 +65,4 @@
 			</div>
 
 		</section><!-- #content end -->
-@endsection  
+@endsection
