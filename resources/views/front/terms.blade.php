@@ -49,15 +49,8 @@
 						<div class="col-lg-4 d-flex align-items-end">
 							<div class="device-video-wrap">
 								<img src="template/front/demos/landing/images/iphone-hand.png" alt="Image">
-								{{-- <video poster="template/front/images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
-									
-								</video> --}}
-
-								{{-- Fitness video tag  --}}
 								<video poster="template/front/demos/landing/images/fitness/fitness_5.png" preload="auto" loop autoplay muted>
-									
 								</video>
-								
 							</div>
 						</div>
 					</div>

@@ -15,7 +15,9 @@
     <!-- Stylesheets
 
     ============================================= -->
-
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="template/front/css/bootstrap.css" type="text/css" />
 
     <link rel="stylesheet" href="template/front/style.css" type="text/css" />
@@ -68,160 +70,177 @@
 
 
 
-<!-- Document Wrapper
+    <!-- Document Wrapper
 
 ============================================= -->
 
-<div id="wrapper" class="clearfix">
+    <div id="wrapper" class="clearfix">
 
 
 
-    <!-- Header
+        <!-- Header
 
     ============================================= -->
 
-    <header id="header" class="transparent-header" data-responsive-class="not-dark">
+        <header id="header" class="transparent-header" data-responsive-class="not-dark">
 
-        <div id="header-wrap">
+            <div id="header-wrap">
 
-            <div class="container hidden" style="display:none;">
+                <div class="container hidden" style="display:none;">
 
-                <div class="header-row">
+                    <div class="header-row">
 
 
 
-                    <!-- Logo
+                        <!-- Logo
 
                     ============================================= -->
 
-                    <div id="logo" class="border-right-0">
+                        <div id="logo" class="border-right-0">
 
-                        <a href="" class="standard-logo" data-dark-logo="template/front/images/logo-dark.png"><img src="template/front/images/logo-dark.png" alt="Logo"></a>
+                            <a href="" class="standard-logo"
+                                data-dark-logo="template/front/images/logo-dark.png"><img
+                                    src="template/front/images/logo-dark.png" alt="Logo"></a>
 
-                        <a href="" class="retina-logo" data-dark-logo="template/front/images/logo-dark.png"><img src="template/front/images/logo-dark.png" alt="Logo"></a>
+                            <a href="" class="retina-logo"
+                                data-dark-logo="template/front/images/logo-dark.png"><img
+                                    src="template/front/images/logo-dark.png" alt="Logo"></a>
 
-                    </div><!-- #logo end -->
+                        </div><!-- #logo end -->
 
 
 
-                    <div id="primary-menu-trigger">
+                        <div id="primary-menu-trigger">
 
-                        <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+                            <svg class="svg-trigger" viewBox="0 0 100 100">
+                                <path
+                                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
+                                </path>
+                                <path d="m 30,50 h 40"></path>
+                                <path
+                                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
+                                </path>
+                            </svg>
+
+                        </div>
+
+
+
+                        <!-- Primary Navigation
+
+                    ============================================= -->
+
+                        <nav class="primary-menu not-dark with-arrows">
+
+
+
+                            <ul class="mr-0 border-0 menu-container">
+
+                                <li class="menu-item"><a class="menu-link" href="">
+                                        <div>Home</div>
+                                    </a></li>
+
+                            </ul>
+
+
+
+                        </nav>
+
+                        <!-- #primary-menu end -->
+
+
 
                     </div>
-
-
-
-                    <!-- Primary Navigation
-
-                    ============================================= -->
-
-                    <nav class="primary-menu not-dark with-arrows">
-
-
-
-                        <ul class="mr-0 border-0 menu-container">
-
-                            <li class="menu-item"><a class="menu-link" href=""><div>Home</div></a></li>
-
-                        </ul>
-
-
-
-                    </nav>
-
-                    <!-- #primary-menu end -->
-
-
 
                 </div>
 
             </div>
 
-        </div>
+            <div class="header-wrap-clone"></div>
 
-        <div class="header-wrap-clone"></div>
-
-    </header><!-- #header end -->
+        </header><!-- #header end -->
 
         @yield('content')
 
-    <!-- Footer
+        <!-- Footer
    
 
 ============================================= -->
 
-    <footer id="footer">
+        <footer id="footer">
 
-        <div id="copyrights" class="bg-color dark py-5">
+            <div id="copyrights" class="bg-color dark py-5">
 
-            <div class="container">
+                <div class="container">
 
 
 
-                <div class="row col-mb-30">
+                    <div class="row col-mb-30">
 
-                    <div class="col-md-6 text-center text-md-left">
+                        <div class="col-md-6 text-center text-md-left">
 
-                        Copyrights &copy; 2024 All Rights Reserved by Studio Sunlife<br>
+                            Copyrights &copy; 2024 All Rights Reserved by Studio Sunlife<br>
 
-                        <div class="copyright-links"><a href="terms" class="text-white-50">Terms of Use</a> / <a href="privacypolicy" class="text-white-50">Privacy Policy</a></div>
+                            <div class="copyright-links"><a href="terms" class="text-white-50">Terms of Use</a> / <a
+                                    href="privacypolicy" class="text-white-50">Privacy Policy</a></div>
+
+                        </div>
+
+
+
+                        <div class="col-md-6 text-center text-md-right">
+
+                            <a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm"><i
+                                    class="icon-apple1 mr-2"></i>App Store</a>
+
+                            <a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm ml-2"><i
+                                    class="icon-google-play mr-2"></i>Play Store</a>
+
+                        </div>
 
                     </div>
 
 
-
-                    <div class="col-md-6 text-center text-md-right">
-
-                        <a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm"><i class="icon-apple1 mr-2"></i>App Store</a>
-
-                        <a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm ml-2"><i class="icon-google-play mr-2"></i>Play Store</a>
-
-                    </div>
 
                 </div>
 
-
-
             </div>
 
-        </div>
+
+
+        </footer><!-- #footer end -->
 
 
 
-    </footer><!-- #footer end -->
+    </div><!-- #wrapper end -->
 
 
 
-</div><!-- #wrapper end -->
-
-
-
-<!-- Go To Top
+    <!-- Go To Top
 
 ============================================= -->
 
-<div id="gotoTop" class="icon-angle-up"></div>
+    <div id="gotoTop" class="icon-angle-up"></div>
 
 
 
-<!-- JavaScripts
-
-============================================= -->
-
-<script src="template/front/js/jquery.js"></script>
-
-<script src="template/front/js/plugins.min.js"></script>
-
-
-
-<!-- Footer Scripts
+    <!-- JavaScripts
 
 ============================================= -->
 
-<script src="template/front/js/functions.js"></script>
+    <script src="template/front/js/jquery.js"></script>
 
-<script src="template/front/js/sweetalert.min.js"></script>
+    <script src="template/front/js/plugins.min.js"></script>
+
+
+
+    <!-- Footer Scripts
+
+============================================= -->
+
+    <script src="template/front/js/functions.js"></script>
+
+    <script src="template/front/js/sweetalert.min.js"></script>
 
 
 </body>
