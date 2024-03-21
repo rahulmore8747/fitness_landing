@@ -427,7 +427,7 @@
             width: 100%;
             height: 3px;
             background-color: transparent;
-            background-image: linear-gradient(to right, rgb(255, 36, 0) 33%, transparent 33%, transparent 66%, rgb(255, 36, 0) 66%);
+            background-image: linear-gradient(to right, rgb(248, 248, 248) 33%, transparent 33%, transparent 66%, rgb(248, 248, 248 ) 66%);
             background-size: 8px 5px;
             background-repeat: repeat-x;
             transform: scaleX(0);
