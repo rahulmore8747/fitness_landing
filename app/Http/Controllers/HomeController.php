@@ -23,11 +23,9 @@ class HomeController extends Controller
     {
         return view('front.privacypolicy');
     }
-
     public function storeContactForm(ContactFormRequest $request)
     {
         try {
-
             $validatedData = $request->validated();
             $body = [
                 "name" => $validatedData['fullname'],
@@ -36,7 +34,6 @@ class HomeController extends Controller
             ];
             $uuid = '1234';
             $platform = 'Web';
-
             // Make API request
             $response = Http::withBasicAuth('admin', 'mypcot')
                 ->withHeaders(['UUID' => $uuid, 'Platform' => $platform])

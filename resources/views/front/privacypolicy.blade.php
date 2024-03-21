@@ -1,44 +1,33 @@
 @extends('front/layouts/app')
 @section('content')
-    <!-- Slider
-          ============================================= -->
-    {{-- <section id="slider" class="slider-element dark min-vh-25 min-vh-md-50 include-header py-5" 
-		style="background-image: url('template/front/demos/landing/images/hero/1.svg');"> --}}
+    <!-- Slider  ============================================= -->
     <section id="slider" class="slider-element dark min-vh-60 min-vh-md-95 include-header py-10"
         style="background-image: url('template/front/demos/landing/images/fitness/fitness_14.png');">
         <div class="slider-inner">
-
             <div class="vertical-middle text-center">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
-
                         <div class="col-lg-12 col-md-12">
                             <h2 class="display-3 font-weight-bold text-white mb-2">Privacy Policy</h2>
                             <p class="lead mb-0 font-weight-normal">Studio Sunlife's Privacy Policy for Your Fitness Journey.
                             </p>
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>
     </section><!-- #slider end -->
 
-    <!-- Content
-          ============================================= -->
+    <!-- Content ============================================= -->
     <section id="content">
-
         <div class="section mb-0 bg-transparent p-0">
             <div class="container clearfix">
                 <div class="conatiner paragraph">
 					<p class="lead font-weight-normal text-center" style="font-size: 14px;">
 						<span class="s1"><strong><br>&nbsp;<u>TERMS OF USE</u></strong></span>
 					</p>
-					
 					<p class="p2"></p>
-					<p class="lead font-weight-normal" style="font-size: 14px;">We at Diverse Retails Private Limited (Studio Sunlife) know that you as a user ('You', 'Your', ‘User(s)’) care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about our privacy policy. By visiting or using our website (www.studionsunlife.fir) and domain name, and any other linked pages, features, content, mobile applications, or any other services we offer from time to time by in connection therewith (collectively, the 'Mobile App'), or by using the Services / Products (as defined in our <a href="{{ route('terms') }}">Terms of Use</a> ) in any manner, you acknowledge that you accept, and are subject to, the practices and policies outlined in this privacy policy.</p>
-
+					<p class="lead font-weight-normal" style="font-size: 14px;">We at Diverse Retails Private Limited (Studio Sunlife) know that you as a user ('You', 'Your', ‘User(s)’) care about how your personal information is used and shared, and we take your privacy seriously. Please read the following to learn more about our privacy policy. By visiting or using our website (www.studionsunlife.fit) and domain name, and any other linked pages, features, content, mobile applications, or any other services we offer from time to time by in connection therewith (collectively, the 'Mobile App'), or by using the Services / Products (as defined in our <a href="{{ route('terms') }}">Terms of Use</a> ) in any manner, you acknowledge that you accept, and are subject to, the practices and policies outlined in this privacy policy.</p>
 					<p class="p4"></p>
 					<p class="lead font-weight-normal" style="font-size: 14px;">This Privacy Policy is published in compliance with inter alia:</p>
 					<p class="p4"></p>
@@ -69,29 +58,22 @@
 									Personal information collected at the time of your registration on the Mobile App/website, including your name, username, email address, gender, birth date, height, location.
 								</li><br>
 								<li>
-									
 									Personal information and SPDI (where necessary) collected for provision of the Services on the Mobile App/website, including your nutrition data, dietary and lifestyle information, information related to height, weight and body measurements, passwords, workout related data (including outputs from your device camera for “live energy” tracking or conducting live workout sessions), physical activity, photographs, biometric information, genetic information, information, race and ethnicity-related information, family-related information (to the extent necessary for effective provision of Services), sleep habits; and  other sleep, activity, or health-related information and insights for our Services and Products.
 								</li><br>
 								<li>
-									
 									Bank details for payment processing.
 								</li><br>
 								<li>
-									
 									Details about your health, mental wellbeing, disabilities or other health-related information such as vaccination status, past and present medical information, all collected for the safety of our other users and premises that they access, the discharge our duties as an employer, or to provide certain benefits.
 								</li><br>
 								<li>
-									
 									Data in your mobile address book to help users find other users who have enabled ‘squads’ and set their profiles as public. We do not otherwise process information from the address book for any other purpose.
 								</li><br>
 								<li>
-									
 									Information relating to your access and usage of premises, and sessions, including workouts, number of activities and users, data collected at our reception desks and kiosks, CCTV footage for common areas collected in accordance with applicable CCTV policy.
 								</li>
 							</ul>
 						</p>
-						
-						
 						</p>
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">The information collected from you as set-out above constitutes ‘personal information’ or ‘sensitive personal data or information’ (“SPDI”) in terms of the SPDI Rules. You hereby consent to collection of such information.</p>
@@ -125,8 +107,7 @@
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;"><b><i>Purpose and Use of information</i></b></p>
 						<p class="p4"></p>
-						<p class="lead font-weight-normal" style="font-size: 14px;">We, our affiliates and/or the sellers or service providers on the Mobile App may access and use your Personal Information and SPDI for the following purposes:</p>
-						
+						<p class="lead font-weight-normal" style="font-size: 14px;">We, our affiliates and/or the sellers or service providers on the Mobile App may access and use your Personal Information and SPDI for the following purposes:</p>						
 							<ol class="lead font-weight-normal" style="font-size: 14px;">
 								<li>Provision of the Products and Services on the Website and the Mobile App including optimizing, or further developing/improving operation of the Platform or providing better user experience.</li>
 								<br>
@@ -142,8 +123,6 @@
 								<br>
 								<li>To serve other purposes for which we provide specific notice at the time of collection, and as otherwise authorized or for any other lawful purpose.</li>
 							</ol>
-						
-						
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 15px;"><b>Delete targeting cookies</b> <br>
 							Your interest profile can be removed by deleting your browser's cookies. <br>
@@ -154,8 +133,6 @@
 							If the cookie is deleted by the User, all profile data is removed. For the sake of clarity, no segments relating to information which we consider sensitive have been or will be created, such as segments relating to political opinions, religious beliefs, physical or mental health conditions or sexual life. Further, we are very sensitive to the issue of children's privacy and marketing directed to children. No segments are intended to be established for the profiling of children.</p>
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 15px;"><b>E-mail and other communications:</b></p>
-
-
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">
 							We may contact you, by email or other means; for example, we, or persons we share your Personal Information with may send you promotional offers on behalf of other businesses, or communicate with you about your use of the Mobile App or the Product. Also, we may receive a confirmation when you open an email from us. This confirmation helps us make emails more interesting and improve our service. If you do not want to receive email or other mail from us, please indicate your preference by emailing us at<a href="mailto:studiosunlife@studio.fit"> studiosunlife@studio.fit </a>or contacting our Grievance Officer.</p>
@@ -171,13 +148,12 @@
 							<br>
 							<li><b>Business transfers:</b>   We may choose to buy or sell assets. In these types of transactions, customer information is typically one of the business assets that is transferred. Also, if we (or substantially all of our assets) are acquired, or if we go out of business or enter bankruptcy, personal information would be one of the assets transferred to or acquired by a third party.</li>
 							<br>
-							<li><b>Protection of Studio Sunlife and others:</b>   We may release personal information when we believe in good faith that release is necessary to comply with laws; enforce or apply our conditions of use and other agreements; or protect the rights, property, or safety of Cultfit, our employees, our users, or others. This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction.</li>
+							<li><b>Protection of Studio Sunlife and others:</b>   We may release personal information when we believe in good faith that release is necessary to comply with laws; enforce or apply our conditions of use and other agreements; or protect the rights, property, or safety of Studio Sunlife, our employees, our users, or others. This includes exchanging information with other companies and organizations for fraud protection and credit risk reduction.</li>
 							<br>
 							<li><b>Offers, programs and benefits:</b> We may offer certain programs (such as loyalty programs), benefits and offers provided by our affiliates, partners or third parties, which are complementary to our products or services or otherwise offer you a continuum of service offerings  similar to  the services or products offered on the Platform.</li>
 							<br>
 							<li><b>With your consent:</b>   Except as set forth above, you will be notified when your personal information may be shared with third parties and will be able to prevent the sharing of this information.</li>
 						</ul>
-						
 							<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;"><b>Transfer of SPDI outside India</b></p>
 						<p class="p4"></p>
@@ -207,19 +183,15 @@
 								<li>  Email address</li>
 								<li>  User profile information, including your height, weight, and location</li>
 							</ul>
-						
 							<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">The information you can view and update may change as the Mobile App changes. Please note that any information that is automatically uploaded from a Product to the Mobile App, or collected otherwise from You by us, cannot be later changed or updated. We store Your personal information (including SPDI) until You require and inform us to delete the same.</p>
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">We will redress your grievances and concerns surrounding usage of Services or Products through Mobile App within specified timelines as per applicable law. If you have any questions about viewing or updating information we have on file about you, or if you wish to raise any complaint/grievances, or object/withdraw your consents, please contact us at <a href="mailto:studiosunlife@studio.fit"> studiosunlife@studio.fit </a>or reach out to our Grievance Officer, appointed in accordance with the Information Technology Act, 2000  and the SPDI Rules, whose contact information is detailed below:</p>
 						<ul>
-							<b><li>Name : </b>Studio Sunlife  
-
-							</li>
+							<b><li>Name : </b>Studio Sunlife</li>
 							<b><li>Email :</b> studiosunlife@studio.fit </li>
 							<b><li>Postal Address : </b>Mumbai</li>
 						</ul>
-						
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">Please provide us with a detailed description of the complaint/grievance, and we will endeavour to resolve Your grievances within 15 (fifteen) days from the date of receipt of such grievance or within such timeframe stipulated under applicable laws.</p>
 						<p class="p4"></p>
@@ -229,20 +201,15 @@
 						<p class="lead font-weight-normal" style="font-size: 14px;">If you do not wish to receive email or other mail from us, please email us at: <a href="mailto:studiosunlife@studio.fit"> studiosunlife@studio.fit </a>or contact our Grievance Officer. Please note that if you do not want to receive legal notices from us, such as this privacy policy, those legal notices will still govern your use of the Mobile App and the Product, and you are responsible for reviewing such legal notices for changes.</p>
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">If you wish to opt-out of any services, offers, benefits, etc. offered by us or sellers on the Platform or their group entities or third party business alliance partners, you may do so in accordance with the terms specified to You by such affiliate/group entity. You are requested to carefully track notices sent to you, from time to time. To the extent that you do not expressly choose to opt-out of services, they may be provided to you on the basis that you have opted in to them.</p>
-
-
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;"><b>Changes to this privacy policy</b></p>
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">We may amend this privacy policy from time to time. Use of information we collect now is subject to the privacy policy in effect at the time such information is used. If we make changes in the way we use personal information, we will notify you by posting an announcement on our Mobile App or sending you an email. You are bound by any changes to the privacy policy when you use the Mobile App, Product or Service after such changes have been first posted.</p>
 						<p class="p4"></p>
-						
 					</div>	
 					<p class="lead font-weight-normal" style="font-size: 16px;"><i><b>Copyright © All rights reserved</b></i></p>
 				</div>
-
             </div>
         </div>
-
     </section><!-- #content end -->
 @endsection

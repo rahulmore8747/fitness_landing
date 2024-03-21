@@ -369,7 +369,7 @@
                                             console.error('Error:', 'Something went wrong, check your details');
                                         })
                                         .finally(() => {
-                                            submitBtn.disabled = false; // Re-enable the submit button after form submission
+                                            submitBtn.disabled = false;
                                         });
                                     });
                                 });

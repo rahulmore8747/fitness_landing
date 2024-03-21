@@ -27,9 +27,6 @@
 
 			<div class="section mb-0 bg-transparent p-0">
 				<div class="container clearfix">
-					{{-- <p class="lead font-weight-normal text-center" style="font-size: 14px;">
-						<span class="s1"><strong><br>&nbsp;<u>TERMS OF USE</u></strong></span>
-					</p> --}}
 					<p class="lead font-weight-normal text-center" style="font-size: 14px;"><span class="s1"><strong><br>&nbsp;<u>TERMS OF USE</u></strong></span></p>
 					<p class="p2"></p>
 					<p class="lead font-weight-normal" style="font-size: 14px;">These terms of use (“<strong>Terms of Use</strong>”) mandate the terms on which the users access and register on the ‘StudioSunlife.fit’ website, m-web and mobile application (collectively referred to as the <strong>“Platform”</strong>), operated by Diverse Retails Private Limited (hereinafter referred to as <strong>“We” or “Our” or “Us” or “Company</strong>”), and the Platform Services (<em>as defined below</em>), provided through the Platform.</p>
@@ -245,12 +242,8 @@
 					</ul>
 					<p class="lead font-weight-normal" style="font-size: 14px;"><span class="s1"><strong><u>Refund Policy</u></strong></span></p>
 					<ul class="ul1">
-						<li class="lead font-weight-normal" style="font-size: 13px;"><u>Fitness Services </u>– Any Studiosunlife.fit  / sessions / classes / activity bookings bought by You are non-refundable, non-exchangable, and non-saleable.</li>
-						<li class="lead font-weight-normal" style="font-size: 13px;"><u>Studio Sunlife Services </u>- Any Studio Sunlife memberships / sessions / classes / activity bookings bought by You are non-refundable, non-exchangeable, non-saleable and non-transferrable.</li>
-						<li class="lead font-weight-normal" style="font-size: 13px;"><u>Curefoods Food Products </u>– You can request for cancellation / pausing of Food Product orders with scheduled deliveries and request for refund / adjustment in future orders against the same. However, acceptance of cancellation / pause requests shall be at Curefoods’ the sellers’ / Company’s discretion and dependent on the cancellation cut-off time and the quantity of Curefoods Food Products ordered by You. There shall be no refunds for on-demand Curefoods Food Product orders.</li>
-						<li class="lead font-weight-normal" style="font-size: 13px;"><u>CareFit Services</u> - In the event of permitted / StudioSunlife.fit cancellations, refunds shall be made within 7-8 days’ from the date of such cancellation to the original source of your payment.</li>
-						<li class="lead font-weight-normal" style="font-size: 13px;"><u>Diverse Products</u> – Please refer to FAQs available on the Platform for requesting refunds in case of Diverse Products.</li>
-						<li class="lead font-weight-normal" style="font-size: 13px;"><u>Digital Services</u> - You may request cancellation of your subscription to the Digital Services, however the same must be done before the respective renewal date to avoid billing of the next period’s subscription fee to the Payment Details you have provided. Refunds cannot be claimed for any partial-term subscription period.</li>
+						<li class="lead font-weight-normal" style="font-size: 13px;"><u>Studio Sunlife Services </u>– Any Studiosunlife.fit  / sessions / classes / activity bookings bought by You are non-refundable, non-exchangable, and non-saleable.</li>
+						<li class="lead font-weight-normal" style="font-size: 13px;">Any Studio Sunlife memberships / sessions / classes / activity bookings bought by You are non-refundable, non-exchangeable, non-saleable and non-transferrable.</li>
 						<li class="lead font-weight-normal" style="font-size: 13px;">The Company and / or relevant service provider(s) / vendor shall have the right to cease/terminate relationship with You unilaterally without any reason, and applicable amount or cash back (if any) or pro-rata refund, as the case may be, shall be refunded to You subsequently.</li>
 						<li class="lead font-weight-normal" style="font-size: 13px;">With regards to payments, the Platform shall not be responsible for any unauthorised transactions conducted on our Platform using Your payment card or internet banking. The Platform shall not be obligated to refund any money to You in such instances. &nbsp;</li>
 					</ul>
