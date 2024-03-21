@@ -81,7 +81,9 @@
                             <div class="copyright-links"><a href="terms" class="text-white-50">Terms of Use</a> / <a href="privacypolicy" class="text-white-50">Privacy Policy</a></div>
                         </div>
                         <div class="col-md-6  text-md-right pl-md-3 pr-md-3"> <!-- Added padding classes -->
+                             {{-- ios store app link --}}
                             <a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm"><i class="icon-apple1 mr-2"></i>App Store</a>
+                            {{-- google play store app link --}}
                             <a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm ml-2"><i class="icon-google-play mr-2"></i>Play Store</a>
                         </div>
                     </div>

@@ -103,9 +103,13 @@
 							When you share your iOS Health app data or Google Fit with our Products, that data is covered by the privacy policy.</p>
 						<p class="p4"></p>
 						<p class="lead font-weight-normal" style="font-size: 14px;">
-							We handle all iOS Health app and HealthKit data in accordance with Apple's development guidelines. To view Apple's HealthKit developer guidelines, go to  <a href="#">https://developer.apple.com/app-store/review/guidelines/#health-and-health-research</a> .</p>
+							We handle all iOS Health app and HealthKit data in accordance with Apple's development guidelines. To view Apple's HealthKit developer guidelines, go to 
+							{{-- ios store app link --}}{{-- google play store app link --}}
+							<a href="#">https://developer.apple.com/app-store/review/guidelines/#health-and-health-research</a> .</p>
 						<p class="p4"></p>
-						<p class="lead font-weight-normal" style="font-size: 14px;">We handle Google Fit data in accordance with Google Fit Terms of Service. To view Google Fit Terms of Service go to <a href="#"> https://developers.google.com/fit/terms</a> .
+						<p class="lead font-weight-normal" style="font-size: 14px;">We handle Google Fit data in accordance with Google Fit Terms of Service. To view Google Fit Terms of Service go to 
+							{{-- google play store app link --}}
+							<a href="#"> https://developers.google.com/fit/terms</a> .
 
 							HealthKit, Health app, iPhone, and Apple are registered trademarks of Apple Inc</p>
 						<p class="p4"></p>

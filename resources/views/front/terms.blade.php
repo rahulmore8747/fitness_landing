@@ -321,7 +321,7 @@
 					<p class="lead font-weight-normal" style="font-size: 13px;">In the event You come across any abuse or violation of these Terms of Use or if You become aware of any objectionable content on the Platform or if You wish to report a grievance regarding Platform or Platform Services, please report the same to the following e-mail id: studiosunlife@studio.fit or reach out to our Grievance Officer, whose contact information is detailed below:</p>
 					<ul class="ul1">
 						<li class="lead font-weight-normal" style="font-size: 13px;"><strong>Name</strong>: Mr Studio Sunlife</li>
-						<li class="lead font-weight-normal" style="font-size: 13px;"><strong>Email&nbsp;</strong>–&nbsp;studiosunlife@studio.fit ; and<span class="Apple-converted-space">&nbsp;</span></li>
+						<li class="lead font-weight-normal" style="font-size: 13px;"><strong>Email&nbsp;</strong>–&nbsp;studiosunlife@studio.fit<span class="Apple-converted-space">&nbsp;</span></li>
 						<li class="lead font-weight-normal" style="font-size: 13px;"><strong>Postal address&nbsp;</strong>– Mumbai.<span class="Apple-converted-space">&nbsp;</span></li>
 					</ul>
 					<p class="p4"></p>

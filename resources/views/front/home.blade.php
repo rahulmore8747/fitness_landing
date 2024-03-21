@@ -14,9 +14,11 @@
                                             style="color:rgb(133, 7, 93)">Fitness</i></u></b> !!</h2>
                             <p class="lead mb-4 font-weight-normal">Your Ultimate Fitness Partner for a Healthier You.</p>
                             <div>
+                                {{-- ios store app link --}}
                                 <a href="https://apps.apple.com/us/app/your-app-name/id1234567890"
                                     class="btn mt-2 text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"
                                     target="_blank"><i class="icon-apple1 mr-2"></i>Get it on the App Store</a>
+                                    {{-- google play store app link --}}
                                 <a href="https://play.google.com/store/apps/details?id=com.yourapp.package"
                                     class="ml-0 ml-lg-2 mt-2 btn text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"
                                     target="_blank"><i class="icon-google-play mr-2"></i>Get it on Play Store</a>
@@ -293,7 +295,7 @@
                                 <i class="icon-line-help h1 "></i>
                                 <h2 class="font-weight-bold mb-2">Need Help?</h2>
                             </div>
-                            {{-- adding contact us data in db --}}
+                            {{-- contact us form --}}
                             <div class="card bg-white shadow-lg border-0">
                                 <form class="row mb-0" id="contactForm" action="{{ route('contact.submit') }}" method="post" enctype="multipart/form-data">
                                     @csrf
@@ -303,17 +305,17 @@
                                             <div class="row mb-0">
                                                 <div class="col-12 form-group mb-4">
                                                     <label for="name">Name:</label>
-                                                    <input type="text" name="fullname" id="name" class="form-control form-control-lg" placeholder="Enter your name..." required>
+                                                    <input type="text" name="fullname" id="name" class="form-control form-control-lg" placeholder="Enter your name...">
                                                     <div class="invalid-feedback">Please enter your name.</div>
                                                 </div>
                                                 <div class="col-12 form-group mb-4">
                                                     <label for="email">Email:</label>
-                                                    <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Enter your email id..." required>
+                                                    <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Enter your email id...">
                                                     <div class="invalid-feedback">Please enter a valid email address.</div>
                                                 </div>
                                                 <div class="col-12 form-group mb-4">
                                                     <label for="message">Message:</label>
-                                                    <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="5" placeholder="Please let us know how we can help you..." required></textarea>
+                                                    <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="5" placeholder="Please let us know how we can help you..."></textarea>
                                                     <div class="invalid-feedback">Please enter your message.</div>
                                                 </div>
                                                 <div class="col-12">
@@ -324,46 +326,54 @@
                                     </div>
                                 </form>
                             </div>
-                            <script>
-                                document.getElementById('contactBtn').addEventListener('click', function() {
-                                    var form = document.getElementById('contactForm');
-                                    var formData = new FormData(form);
                             
-                                    var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
-                            
-                                    fetch(form.action, {
-                                        method: 'POST',
-                                        headers: {
-                                            'X-CSRF-TOKEN': csrfToken,
-                                        },
-                                        body: formData,
-                                    })
-                                    .then(response => response.json())
-                                    .then(data => {
-                                        if (data.success) {
-                                            console.log('Form submitted successfully!');
-                                            // Display success message or redirect
-                                        } else if (data.error) {
-                                            console.error('Error:', data.error);
-                                            // Display error message
-                                        }
-                                    })
-                                    .catch(error => {
-                                        console.error('Error:', error);
-                                    });
-                                });
-                            </script>
-{{-- {{url}}/contact/create                                                         --}}
-                            <div id="liveToast" class="toast align-items-center position-fixed top-0 end-0"
-                                role="alert" aria-live="assertive" aria-atomic="true">
+                            <div id="liveToast" class="toast align-items-center position-fixed top-0 end-0" role="alert" aria-live="assertive" aria-atomic="true">
                                 <div class="d-flex justify-content-between w-100">
                                     <div class="toast-body">
                                         Thank You! We Got Your Query, We Will Contact You Shortly..
                                     </div>
-                                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
-                                        style="background-color: white" aria-label="Close"></button>
+                                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" style="background-color: white" aria-label="Close"></button>
                                 </div>
                             </div>
+                            
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const form = document.getElementById('contactForm');
+                                    const submitBtn = document.getElementById('contactBtn');
+                                    const toast = new bootstrap.Toast(document.getElementById('liveToast'));
+                            
+                                    form.addEventListener('submit', function(event) {
+                                        event.preventDefault();
+                                        submitBtn.disabled = true; 
+                            
+                                        const formData = new FormData(form);
+                                        const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+                            
+                                        fetch(form.action, {
+                                            method: 'POST',
+                                            headers: {
+                                                'X-CSRF-TOKEN': csrfToken,
+                                            },
+                                            body: formData,
+                                        })
+                                        .then(response => response.json())
+                                        .then(data => {
+                                            if (data.success) {
+                                                toast.show(); // Display the toast message
+                                                console.log('Form submitted successfully!');
+                                            } else if (data.error) {
+                                                console.error('Error:', data.error);
+                                            }
+                                        })
+                                        .catch(error => {
+                                            console.error('Error:', 'Something went wrong, check your details');
+                                        })
+                                        .finally(() => {
+                                            submitBtn.disabled = false; // Re-enable the submit button after form submission
+                                        });
+                                    });
+                                });
+                            </script>
                             <script>
                                 $(document).ready(function() {
                                     $('#contactBtn').click(function() {
