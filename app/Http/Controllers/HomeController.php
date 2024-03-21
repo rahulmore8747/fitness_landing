@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\ContactFormEntry;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class HomeController extends Controller
 {
@@ -24,34 +25,39 @@ class HomeController extends Controller
 
     public function storeContactForm(Request $request)
     {
-        // Validate the form data
         $validatedData = $request->validate([
             'fullname' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'phone' => 'required|string|max:20',
             'message' => 'nullable|string',
         ]);
 
-        // Check if the email already exists
-        $existingEmail = ContactFormEntry::where('email', $validatedData['email'])->first();
-        if ($existingEmail) {
-            return redirect()->back()->with('error', 'Email already exists in our records.');
+        // Check for existing email in database
+        // $existingEmail = ContactFormEntry::where('email', $validatedData['email'])->first();
+
+        // if ($existingEmail) {
+        //     return response()->json(['error' => 'Email already exists in our records.'], 422);
+        // }
+
+        // Prepare data for API request
+        $body = [
+            "name" => $validatedData['fullname'],
+            "email" => $validatedData['email'],
+            "message" => $validatedData['message'],
+        ];
+        $uuid = '1234'; // Replace with actual UUID
+        $platform = 'Web'; // Replace with actual platform information
+
+        // Make API request
+        $response = Http::withBasicAuth('admin', 'mypcot')
+            ->withHeaders(['UUID' => $uuid, 'Platform' => $platform])
+            ->post('http://skyonliners.com/demo/fitness-studio/webservices/v1/contact/create', $body)
+            ->json();
+        // dd($response);
+        // Handle API response
+        if ($response) {
+            return response()->json(['success' => $response], 200);
+        } else {
+            return response()->json(['error' => 'Error submitting form.'], 500);
         }
-
-        // Check if the phone number already exists
-        $existingPhone = ContactFormEntry::where('phone', $validatedData['phone'])->first();
-        if ($existingPhone) {
-            return redirect()->back()->with('error', 'Phone number already exists in our records.');
-        }
-
-        // Create a new entry in the database
-        $entry = new ContactFormEntry();
-        $entry->name = $validatedData['fullname'];
-        $entry->email = $validatedData['email'];
-        $entry->phone = $validatedData['phone'];
-        $entry->message = $validatedData['message'];
-        $entry->save();
-
-        return redirect()->back()->with('success', 'Form submitted successfully!');
     }
 }

@@ -11,7 +11,6 @@ class ContactFormEntry extends Model
     protected $fillable = [
         'name',
         'email',
-        'phone',
         'message',
     ];
 }

@@ -77,7 +77,7 @@
                 <div class="container">
                     <div class="row col-mb-30">
                         <div class="col-md-6  text-md-left pl-md-3 pr-md-5"> <!-- Added padding classes -->
-                            Copyrights &copy; 2024 All Rights Reserved by <a href="{{ route('home') }}" style="color: white;">Studio Sunlife</a><br>
+                            Copyrights &copy; 2024 All Rights Reserved by <a href="{{ route('home') }}" style="color: white;"><u>Studio Sunlife</u></a><br>
                             <div class="copyright-links"><a href="terms" class="text-white-50">Terms of Use</a> / <a href="privacypolicy" class="text-white-50">Privacy Policy</a></div>
                         </div>
                         <div class="col-md-6  text-md-right pl-md-3 pr-md-3"> <!-- Added padding classes -->
